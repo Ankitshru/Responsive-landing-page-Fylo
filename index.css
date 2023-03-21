@@ -328,18 +328,20 @@ button:hover{
 }
 
 /******************Responsive code**********************/
-@media (max-width:600px){
+
+@media screen and (max-width:600px){
     .header img{
-        left: -30px;
+        left: -10px;
     }
     .logo{
-        width: 6em;
+        width: 8em;
     }
     .navbar{
-        right:  36px;
+        right:  23px;
+        font-size: 1.3rem;
     }
     .links{
-        gap: 1.5em;
+        gap: 1em;
     }
     .header-container{
         flex-wrap: nowrap;
@@ -356,32 +358,33 @@ button:hover{
         width: 51vh;
     }
     .caption{
-        top: 76vh;
-    left: 7px;
-    width: 58vh;
+        top: 75vh;
+    left: 16px;
+    width: 55vh;
     text-align: center;
     }
     .head-txt{
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
     .info{
         width: 90%;
         margin: 30px auto;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     input[type]{
-        width: 50vh;
-        height: 30px;
-        margin-bottom: 16px;
+        width: 47vh;
+    height: 45px;
+    margin-bottom: 16px;
+    font-size: 1.2em;
     }
     button{
-        height: 58px;
-        width: 426px;
-        border-radius: 3px;
-        font-size: 1.2rem;
+        height: 70px;
+    width: 519px;
+    border-radius: 3px;
+    font-size: 1.4rem;
     }
     .content-container{
-        height: 145vh;
+        height: 125vh;
         /*top: -160px;*/
     }
     .fig2{
@@ -390,7 +393,7 @@ button:hover{
         width: fit-content;
     }
     .mobile-curve-svg{
-        width: 59vh;
+        width: 55vh;
     position: relative;
     top: -60px;
     display: block;
@@ -403,11 +406,11 @@ button:hover{
     }
     .content-box1{
         width: 91%;
-        left: 34px;
+        left: 45px;
     }
     .head-txt-2{
         font-size: 1.4rem;
-        margin-left: 45px;
+        margin-left: 63px;
         margin-top: 61px;
     }
     .content-box1 p{
@@ -415,35 +418,39 @@ button:hover{
         font-size: 1.2rem;
     }
     #link-txt{
-        width: 45%;
-        margin-left: 110px;
+        width: 36%;
+        margin-left: 146px;
         margin-top: 50px;
         font-weight: 400;
     }
     .icon-arrow{
-        left: 36vh;
-    top: -16px;
+        left: 31vh;
+    top: -17px;
     }
     .message{
-        top: 19vh;
-    left: 36px;
-    width: 48vh;
-    height: 28vh;
+        top: 6vh;
+    left: 74px;
+    width: 39vh;
+    height: 21vh;
+    }
+    .icon-quotes{
+        top: 16px;
     }
     .txt-founder{
-        top: 20px;
+        top: 11px;
     }
 
     .footer-container{
         /*bottom: 159px;*/
-        height: 54vh;
+        height: 47vh;
         display: block;
     }
     .f-box{
-        width: 41vh;
-    text-align: center;
-    left: 71px;
-    top: 58px;
+        width: 43vh;
+        text-align: center;
+        left: 60px;
+        top: 64px;
+        font-size: 1.4rem;
     }
     .f-box2{
         top: 100px;
@@ -452,14 +459,16 @@ button:hover{
     }
     .f-box2 input[type]{
         width: 33vh;
+        height: 30px;
     }
     .f-box2 button{
-        width: 35.3vh;
-        height: 50px
+        height: 50px;
+    font-size: 1.2rem;
+    width: 369px;
     }
     .bottom-content{
         flex-wrap: wrap;
-        height: 80vh;
+        height: 58vh;
         font-size: 1.3rem;
     }
     .footer{
@@ -469,8 +478,8 @@ button:hover{
         display: flex;
     flex-direction: column;
     width: 130px;
-    top: 172px;
-    right: 298px;
+    top: 126px;
+    right: 423px;
 
     }
     .footer-links .bottom-links{
