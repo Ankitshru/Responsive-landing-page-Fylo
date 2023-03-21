@@ -329,7 +329,7 @@ button:hover{
 
 /******************Responsive code**********************/
 
-@media screen and (max-width:600px){
+@media (min-width:600px){
     .header img{
         left: -10px;
     }
