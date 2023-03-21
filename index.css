@@ -328,7 +328,7 @@ button:hover{
 }
 
 /******************Responsive code**********************/
-@media (max-width:500px){
+@media (max-width:600px){
     .header img{
         left: -30px;
     }
